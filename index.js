@@ -55,7 +55,7 @@ client.once('ready', () => {
           { name: '**Music Bot**', value: '```diff\n-Version : v3.3    Status: Working  ```'},
           { name: '**Multi Music Bot**', value: '```diff\n-Version : v4.2    Status: Working  ```'},
         { name: '**BotGhost Status**', value: '```diff\n-Version : v2.0    Status: Working  ```'},
-        { name: '**Announcement Bot**', value: '```diff\n-Version : v1.2    Status: Paused  ```'},
+        { name: '**Announcement Bot**', value: '```diff\n-Version : v1.3    Status: Working  ```'},
         { name: '**Vouch Bot**', value: '```diff\n-Version : v1.1    Status: Working  ```'},
 
       )
