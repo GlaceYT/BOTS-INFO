@@ -49,13 +49,14 @@ client.once('ready', () => {
     const showcaseEmbed = new EmbedBuilder()
       .setColor('#0099ff')
       .setTitle('Bot Updates')
-      .setDescription('🌟 Create your own custom bots watch below Guides!\n\n<a:arrow:1119532745165647902> [**YouTube Channel**](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)\n<a:arrow:1119532745165647902> [**Bot Codes**](https://replit.com/@BEASTGAMERS1?tab=community)\n<a:arrow:1119532745165647902> [**Support Server**](https://discord.gg/wP7PmbSEKM)')
+      .setDescription('🌟 Create your own custom bots watch below Guides!\n\n<a:arrow:1119532745165647902> [**YouTube Channel**](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)\n<a:arrow:1119532745165647902> [**Bot Codes**](https://github.com/RTX-GAMINGG)\n<a:arrow:1119532745165647902> [**Support Server**](https://discord.gg/wP7PmbSEKM)')
 
       .addFields(
-          { name: '**Music Bot**', value: '```diff\n-Version : v3.3    Status: Working  ```'},
-          { name: '**Multi Music Bot**', value: '```diff\n-Version : v4.2    Status: Working  ```'},
+          { name: '**Music Bot**', value: '```diff\n-Version : v3.6    Status: Working  ```'},
+          { name: '**Multi Music Bot**', value: '```diff\n-Version : v1.2    Status: Working  ```'},
+         { name: '**Ticket Bot**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
         { name: '**BotGhost Status**', value: '```diff\n-Version : v2.0    Status: Working  ```'},
-        { name: '**Announcement Bot**', value: '```diff\n-Version : v1.3    Status: Working  ```'},
+        { name: '**Announcement Bot**', value: '```diff\n-Version : v1.4    Status: Working  ```'},
         { name: '**Vouch Bot**', value: '```diff\n-Version : v1.1    Status: Working  ```'},
 
       )
