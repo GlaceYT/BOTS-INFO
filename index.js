@@ -41,7 +41,7 @@ client.once('ready', () => {
   });
 
   
-  const channelId = '1156866389819281418'; 
+  const channelId = '1175487983915376662'; 
   client.channels.fetch(channelId).then(channel => {
     if (onlineMessage) {
       onlineMessage.delete().catch(error => console.error('Error deleting message:', error));
