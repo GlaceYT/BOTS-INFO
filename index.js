@@ -41,27 +41,33 @@ client.once('ready', () => {
   });
 
   
-  const channelId = '1175487983915376662'; 
+  const channelId = '1162713754048409670'; 
   client.channels.fetch(channelId).then(channel => {
     if (onlineMessage) {
       onlineMessage.delete().catch(error => console.error('Error deleting message:', error));
     }
     const showcaseEmbed = new EmbedBuilder()
-      .setColor('#0099ff')
-      .setTitle('Bot Updates')
-      .setDescription('🌟 Create your own custom bots watch below Guides!\n\n<a:arrow:1119532745165647902> [**YouTube Channel**](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)\n<a:arrow:1119532745165647902> [**Bot Codes**](https://github.com/RTX-GAMINGG)\n<a:arrow:1119532745165647902> [**Support Server**](https://discord.gg/wP7PmbSEKM)')
+      .setColor('#b406c0')
+       .setAuthor({
+      name: 'Bot Stats',
+      iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=66433a28&is=6641e8a8&hm=6d1c2b3622d46c17c1b8bdfccdb6494d04f91db72c9a17dcf91ea67112d5e336&',
+      url: 'https://discord.gg/xQF9f9yUEM'
+    })
+      .setDescription('🌟 Create your own custom bots watch below Guides!\n\n<a:arrow:1119532745165647902> [**YouTube Channel**](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)\n<a:arrow:1119532745165647902> [**Bot Codes**](https://github.com/GlaceYT)\n<a:arrow:1119532745165647902> [**Support Server**](https://discord.gg/xQF9f9yUEM)')
 
       .addFields(
-          { name: '**Music Bot**', value: '```diff\n-Version : v3.6    Status: Paused  ```'},
-          { name: '**Multi Music Bot**', value: '```diff\n-Version : v1.5    Status: Working  ```'},
-         { name: '**Ticket Bot**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
-        { name: '**BotGhost Status**', value: '```diff\n-Version : v2.0    Status: Working  ```'},
-        { name: '**Announcement Bot**', value: '```diff\n-Version : v1.4    Status: Working  ```'},
-        { name: '**Vouch Bot**', value: '```diff\n-Version : v1.1    Status: Working  ```'},
+          { name: '**Multi Musix Bot [ Preifx Bot ]**', value: '```diff\n-Version : v1.7    Status: Working  ```'},
+           { name: '**Prime Music Bot [ Slash Command Lavalink ]**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
+          { name: '**Music Bot [ Slash Command YTDL ]**', value: '```diff\n-Version : v3.6    Status: Paused  ```'},
+           { name: '**Welcome Bot [ Slash Command Bot ]**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
+         { name: '**Ticket Bot [ Slash Command Bot ]**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
+        { name: '**BotGhost Status [ Script ]**', value: '```diff\n-Version : v2.0    Status: Working  ```'},
+        { name: '**Announcement Bot [ Prefix Bot ]**', value: '```diff\n-Version : v2.0    Status: Working  ```'},
+        { name: '**Vouch Bot [ Prefix Bot]**', value: '```diff\n-Version : v1.1    Status: Working  ```'},
 
       )
-      .setImage(`https://cdn.discordapp.com/attachments/1175487983915376662/1177604675919421481/LIVE_RTX_BOT_STATUS.png?`)
-      .setFooter({ text: 'Thank You for Using Our Bots!❤️', iconURL: 'https://cdn.discordapp.com/attachments/1175487983915376662/1177979690800119868/RTX.png?ex=65747a14&is=65620514&hm=34bdeb2010bb43020ec944f58fcd26a8e3013a17b92f5724671953b0cfa96293&' })
+      .setImage(`https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=66433a37&is=6641e8b7&hm=e22d648c9664dc4a1b62fcb8de541cc3188229b366dc0641892268a103ce533b&`)
+      .setFooter({ text: 'Thank You for Using Our Bots!❤️', iconURL: 'https://cdn.discordapp.com/attachments/1113800537402527903/1239609375635673128/Untitled_design.png?ex=66438bb1&is=66423a31&hm=6315904ca16646257f412a6391c89c7ea0450513802a7f7b068a5dbd9528f5da&' })
       .setTimestamp();
 
     channel.send({ embeds: [showcaseEmbed] }).then(message => {
