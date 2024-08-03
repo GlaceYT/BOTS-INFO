@@ -41,7 +41,7 @@ client.once('ready', () => {
   });
 
   
-  const channelId = '1162713754048409670'; 
+  const channelId = '1175487983915376662'; 
   client.channels.fetch(channelId).then(channel => {
     if (onlineMessage) {
       onlineMessage.delete().catch(error => console.error('Error deleting message:', error));
@@ -53,10 +53,10 @@ client.once('ready', () => {
       iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=66433a28&is=6641e8a8&hm=6d1c2b3622d46c17c1b8bdfccdb6494d04f91db72c9a17dcf91ea67112d5e336&',
       url: 'https://discord.gg/xQF9f9yUEM'
     })
-      .setDescription('🌟 Create your own custom bots watch below Guides!\n\n<a:arrow:1119532745165647902> [**YouTube Channel**](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)\n<a:arrow:1119532745165647902> [**Bot Codes**](https://github.com/GlaceYT)\n<a:arrow:1119532745165647902> [**Support Server**](https://discord.gg/xQF9f9yUEM)')
+      .setDescription('<:gle:1246408543687675904><:lle:1246408730682196072><:ale:1246408783354396702><:cle:1246408827486605383><:ele:1246408853701263370><:yle:1246408886055997501><:tle:1246408908759760960>\n\n<a:arrow:1119532745165647902> [**YouTube Channel**](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)\n<a:arrow:1119532745165647902> [**Bot Codes**](https://github.com/GlaceYT)\n<a:arrow:1119532745165647902> [**Support Server**](https://discord.gg/xQF9f9yUEM)')
 
       .addFields(
-          { name: '**All In One Bot [ Slash & Prefix ]*', value: '```diff\n-Version : v1.0    Status: Working  ```'},
+          { name: '**All In One Bot [ Slash & Prefix ]**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
           { name: '**Multi Musix Bot [ Preifx Bot ]**', value: '```diff\n-Version : v1.7    Status: Working  ```'},
            { name: '**Prime Music Bot [ Slash Command Lavalink ]**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
           { name: '**Music Bot [ Slash Command Distube ]**', value: '```diff\n-Version : v4.0    Status: Working  ```'},
