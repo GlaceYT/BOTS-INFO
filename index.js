@@ -56,9 +56,10 @@ client.once('ready', () => {
       .setDescription('🌟 Create your own custom bots watch below Guides!\n\n<a:arrow:1119532745165647902> [**YouTube Channel**](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)\n<a:arrow:1119532745165647902> [**Bot Codes**](https://github.com/GlaceYT)\n<a:arrow:1119532745165647902> [**Support Server**](https://discord.gg/xQF9f9yUEM)')
 
       .addFields(
+          { name: '**All In One Bot [ Slash & Prefix ]*', value: '```diff\n-Version : v1.0    Status: Working  ```'},
           { name: '**Multi Musix Bot [ Preifx Bot ]**', value: '```diff\n-Version : v1.7    Status: Working  ```'},
            { name: '**Prime Music Bot [ Slash Command Lavalink ]**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
-          { name: '**Music Bot [ Slash Command YTDL ]**', value: '```diff\n-Version : v3.6    Status: Paused  ```'},
+          { name: '**Music Bot [ Slash Command Distube ]**', value: '```diff\n-Version : v4.0    Status: Working  ```'},
            { name: '**Welcome Bot [ Slash Command Bot ]**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
          { name: '**Ticket Bot [ Slash Command Bot ]**', value: '```diff\n-Version : v1.0    Status: Working  ```'},
         { name: '**BotGhost Status [ Script ]**', value: '```diff\n-Version : v2.0    Status: Working  ```'},
